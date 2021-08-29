@@ -1,17 +1,20 @@
 .footer
-    height: 300px
-    width: 100%
+    padding: 50px 10px 50px 10px
     justify-content: center
     align-items: center
-    background-color: #F1FDFB
+    background-color: #e3f8f5
     margin-top: 160px
 .footer__container-items
     display: grid
     grid-template-columns: 25% 25% 25% 25%
-    grid-template-rows: 300px
+.footer__container-item, .footer__container-logo
+    align-items: center
 .footer__container-logo
     display: flex
     justify-content: center
+.footer__contact-title
+    display: flex
+    justify-content: space-around
 .logo__text1
     font-weight: bold
     font-size: 20px
@@ -19,6 +22,8 @@
     display: flex
     justify-content: center
     width: 100%
+.social__icon img
+    margin: 10px 5px 5px 5px
 @media screen and ( max-width: 677px)
     .footer__container-items
         display: grid
@@ -28,14 +33,18 @@
 @media screen and ( max-width: 538px)
     .footer__container-items
         display: grid
-        grid-template-columns: 55% 55%
-        grid-template-rows: 300px
+        grid-template-columns: 50% 50%
 
 @media screen and ( max-width: 350px)
     .footer__container-items
-        display: grid
-        grid-template-columns: 100%
-
+        display: flex
+        flex-wrap: wrap
+    .footer__container-item
+        display: block
+        justify-content: start
+        margin: 10px 0 10px 0
+    .footer__contact-title
+        display: block
 // .footer
 //   background-color: #F1FDFB
 //   margin-top: 160px

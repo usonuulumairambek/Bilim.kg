@@ -6,7 +6,6 @@ import Manager from "../../assets/img/Manager.png";
 import Back from "../../assets/img/Back.png";
 import Test from "../../assets/img/Test.png";
 import Front from "../../assets/img/Front.png";
-
 function Courses() {
   return (
    

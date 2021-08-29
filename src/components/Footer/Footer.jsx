@@ -18,7 +18,9 @@ function Footer() {
               <img src={Logo} alt="" />
             </div>
             <div className="footer__text">
-              <div className="logo__text1">Центр <br /> Pазвития <br /> Инновации</div>
+              <div className="logo__text1">
+                Центр <br /> Pазвития <br /> Инновации
+              </div>
             </div>
           </div>
           <div className="footer__container-item">
@@ -32,31 +34,39 @@ function Footer() {
           <div className="footer__container-item">
             {" "}
             <div className="footer__text-contact">
-              <div className="footer__contact-title">Контакты</div>
-              <div className="footer__phone">
-                <img className="icon__marker" src={Marker} alt="" />
+              <div className="footer__contact-title">
+                Контакты <img className="icon__marker" src={Marker} alt="" />
               </div>
               <div className="footer-text-phone">
                 <div className="footer__phone-text">ул. Баялинова 146</div>
               </div>
               <div className="footer__text-phone">
-                <div className="footer__phone-text">+996 555 55 55 55</div>
+                <div className="footer__phone-text">+996 312 888 882</div>
               </div>
             </div>
           </div>
           <div className="footer__container-item">
-            {" "}
-            <div className="footer__social-text">
-              <div className="social__text">Социальные сети</div>
-            </div>
-            <div className="footer__social-icon">
-              <div className="social__icon">
-                <img className="tube__icon" src={Youtube} alt="" />
-                <img className="tube__icon" src={Instagram} alt="" />
-                <img className="tube__icon" src={Facebook} alt="" />
+            <div className="footer__container-box">
+              <div className="footer__social-text">
+                <div className="social__text">Социальные сети</div>
               </div>
-              <div className="footer__phone">
-                <img className="icon__marker" src={Phone} alt="" />
+              <div className="footer__social-icon">
+                <div className="social__icon">
+                  <a
+                    rel="noreferrer"
+                    href="https://www.instagram.com/bilim.kg24/"
+                    target="_blank"
+                  >
+                    {" "}
+                    <img className="tube__icon" src={Instagram} alt="" />
+                  </a>
+                  <a href="tel:+996312888882">
+                    {" "}
+                    <img className="icon__marker" src={Phone} alt="" />
+                  </a>
+                  <img className="tube__icon" src={Youtube} alt="" />
+                  <img className="tube__icon" src={Facebook} alt="" />
+                </div>
               </div>
             </div>
             <div className="footer__social"></div>
