@@ -1,5 +1,5 @@
 import React from "react";
-import "./Main.sass";
+// import "./Main.sass";
 import img1 from "../../assets/img/img1.png";
 // import Advantages from "../Advantages/Advantages"
 // import Fond from "../MainPages"
